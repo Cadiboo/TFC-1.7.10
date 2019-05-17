@@ -12,6 +12,8 @@ public class GenLayerBiomeTFC extends GenLayerTFC
 {
 	/** this sets all the biomes that are allowed to appear in the overworld */
 	private TFCBiome[] allowedBiomes = new TFCBiome[] {
+	
+	//TFC Biomes
 			TFCBiome.OCEAN,
 			TFCBiome.HIGH_HILLS,
 			TFCBiome.PLAINS,
@@ -19,6 +21,92 @@ public class GenLayerBiomeTFC extends GenLayerTFC
 			TFCBiome.SWAMPLAND,
 			TFCBiome.ROLLING_HILLS,
 			TFCBiome.MOUNTAINS,
+			
+	//Biomes O' Plenty Biomes
+			BOPCBiomes.alps,
+			BOPCBiomes.arctic,
+			BOPCBiomes.bambooForest,
+			BOPCBiomes.bayou,
+			BOPCBiomes.bog,
+			BOPCBiomes.borealForest,
+			BOPCBiomes.brushland,
+			BOPCBiomes.canyon,
+			BOPCBiomes.chaparral,
+			BOPCBiomes.cherryBlossomGrove,
+			BOPCBiomes.coniferousForest,
+			BOPCBiomes.snowyConiferousForest,
+			BOPCBiomes.crag,
+			BOPCBiomes.deadForest,
+			BOPCBiomes.deadSwamp,
+			BOPCBiomes.deciduousForest,
+			BOPCBiomes.denseForest,
+			BOPCBiomes.eucalyptusForest,
+			BOPCBiomes.fen,
+			BOPCBiomes.flowerField,
+			BOPCBiomes.frostForest,
+			BOPCBiomes.fungiForest,
+			BOPCBiomes.garden,
+			BOPCBiomes.grassland,
+			BOPCBiomes.grove,
+			BOPCBiomes.heathland,
+			BOPCBiomes.highland,
+			BOPCBiomes.jadeCliffs,
+			BOPCBiomes.landOfLakes,
+			BOPCBiomes.lavenderFields,
+			BOPCBiomes.lushDesert,
+			BOPCBiomes.lushSwamp,
+			BOPCBiomes.mapleWoods,
+			BOPCBiomes.marsh,
+			BOPCBiomes.meadow,
+			BOPCBiomes.moor,
+			BOPCBiomes.mountain,
+			BOPCBiomes.mysticGrove,
+			BOPCBiomes.ominousWoods,
+			BOPCBiomes.originValley,
+			BOPCBiomes.outback,
+			BOPCBiomes.prairie,
+			BOPCBiomes.rainforest,
+			BOPCBiomes.redwoodForest,
+			BOPCBiomes.sacredSprings,
+			BOPCBiomes.seasonalForest,
+			BOPCBiomes.shield,
+			BOPCBiomes.shrubland,
+			BOPCBiomes.sludgepit,
+			BOPCBiomes.steppe,
+			BOPCBiomes.temperateRainforest,
+			BOPCBiomes.thicket,
+			BOPCBiomes.tropicalRainforest,
+			BOPCBiomes.tundra,
+			BOPCBiomes.wasteland,
+			BOPCBiomes.wetland,
+			BOPCBiomes.woodland,
+			BOPCBiomes.xericShrubland,
+			
+	//Biomes O' Plenty Sub Biomes
+			BOPCBiomes.alpsForest,
+			BOPCBiomes.canyonRavine,
+			BOPCBiomes.glacier,
+			BOPCBiomes.landOfLakesMarsh,
+			BOPCBiomes.mangrove,
+			BOPCBiomes.meadowForest,
+			BOPCBiomes.oasis,
+			BOPCBiomes.orchard,
+			BOPCBiomes.quagmire,
+			BOPCBiomes.scrubland,
+			BOPCBiomes.seasonalForestClearing,
+			BOPCBiomes.silkGlades,
+			BOPCBiomes.spruceWoods,
+			BOPCBiomes.tropics,
+			BOPCBiomes.volcano,
+			
+	//Biomes O' Plenty Ocean Biomse
+			BOPCBiomes.coralReef,
+			BOPCBiomes.kelpForest,
+			
+	//Biomes O' Plenty River Biomes
+			BOPCBiomes.lushRiver,
+			BOPCBiomes.dryRiver
+
 	};
 
 	public GenLayerBiomeTFC(long par1, GenLayer par3GenLayer, TFCWorldType par4)
