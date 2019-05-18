@@ -15,6 +15,9 @@ buildscript {
     }
 }
 
+apply plugin: 'maven-publish'
+apply plugin: 'maven'
+
 // define the properties file
 ext.configFile = file "build.prop"
 
@@ -126,3 +129,8 @@ jar {
 task wrapper(type: Wrapper) {
     gradleVersion = '2.2.1'
 }
+
+artifacts {
+	archives(jar) { builtBy reobfJar }
+}
+
