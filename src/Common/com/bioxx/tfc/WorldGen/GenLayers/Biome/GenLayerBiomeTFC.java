@@ -8,6 +8,43 @@ import com.bioxx.tfc.WorldGen.TFCBiome;
 import com.bioxx.tfc.WorldGen.TFCWorldType;
 import com.bioxx.tfc.WorldGen.GenLayers.GenLayerTFC;
 
+import biomesoplenty.common.biome.BiomeBOP;
+import biomesoplenty.common.biome.overworld.AlpsBiome;
+import biomesoplenty.common.biome.overworld.CherryBlossomGroveBiome;
+import biomesoplenty.common.biome.overworld.ConiferousForestBiome;
+import biomesoplenty.common.biome.overworld.FlowerMeadowBiome;
+import biomesoplenty.common.biome.overworld.BogBiome;
+import biomesoplenty.common.biome.overworld.BorealForestBiome;
+import biomesoplenty.common.biome.overworld.BrushlandBiome;
+import biomesoplenty.common.biome.overworld.ChaparralBiome;
+import biomesoplenty.common.biome.overworld.GrasslandBiome;
+import biomesoplenty.common.biome.overworld.LavenderFieldsBiome;
+import biomesoplenty.common.biome.overworld.LushSwampBiome;
+import biomesoplenty.common.biome.overworld.MapleWoodsBiome;
+import biomesoplenty.common.biome.overworld.MeadowBiome;
+import biomesoplenty.common.biome.overworld.MysticGroveBiome;
+import biomesoplenty.common.biome.overworld.OminousWoodsBiome;
+import biomesoplenty.common.biome.overworld.OrchardBiome;
+import biomesoplenty.common.biome.overworld.OriginHillsBiome;
+import biomesoplenty.common.biome.overworld.OutbackBiome;
+import biomesoplenty.common.biome.overworld.PastureBiome;
+import biomesoplenty.common.biome.overworld.PrairieBiome;
+import biomesoplenty.common.biome.overworld.RedwoodForestBiome;
+import biomesoplenty.common.biome.overworld.SeasonalForestBiome;
+import biomesoplenty.common.biome.overworld.ShieldBiome;
+import biomesoplenty.common.biome.overworld.ShrublandBiome;
+import biomesoplenty.common.biome.overworld.SnowyConiferousForestBiome;
+import biomesoplenty.common.biome.overworld.SnowyForestBiome;
+import biomesoplenty.common.biome.overworld.SteppeBiome;
+import biomesoplenty.common.biome.overworld.TemperateRainforestBiome;
+import biomesoplenty.common.biome.overworld.TropicalRainforestBiome;
+import biomesoplenty.common.biome.overworld.TundraBiome;
+import biomesoplenty.common.biome.overworld.WastelandBiome;
+import biomesoplenty.common.biome.overworld.WetlandBiome;
+import biomesoplenty.common.biome.overworld.WoodlandBiome;
+import biomesoplenty.common.biome.overworld.XericShrublandBiome;
+import biomesoplenty.common.world.WorldTypeBOP;
+
 public class GenLayerBiomeTFC extends GenLayerTFC
 {
 	/** this sets all the biomes that are allowed to appear in the overworld */
